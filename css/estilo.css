@@ -1,3 +1,45 @@
 body{
     background-color: aquamarine;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Faz header e footer ocuparem 100% da largura */
+header, footer {
+    width: 100%;
+}
+
+/* Section e aside lado a lado */
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+/* Só para visualização (opcional) */
+header, section, aside, footer {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ccc;
+}
+
+section {
+    background-color: #e6f2ff;
+}
+
+aside {
+    background-color: #f9e6ff;
+}
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+}
